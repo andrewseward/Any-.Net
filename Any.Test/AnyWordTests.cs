@@ -3,162 +3,160 @@ using NUnit.Framework;
 using System.Linq;
 namespace Any.Test
 {
-    public class AnyWordTests
+
+    public class AnyWordTests_GivenValidCharRangeFixedLength
     {
-        public class AnyWordTests_GivenValidCharRangeFixedLength
+        private char _minChar;
+        private char _maxChar;
+        private int _length;
+        private string _returnedValue;
+
+        [SetUp]
+        public void WhenAnyWordCalled()
         {
-            private char _minChar;
-            private char _maxChar;
-            private int _length;
-            private string _returnedValue;
+            _minChar = 'a';
+            _maxChar = 't';
+            _length = 6;
 
-            [SetUp]
-            public void WhenAnyWordCalled()
-            {
-                _minChar = 'a';
-                _maxChar = 't';
-                _length = 6;
-
-                _returnedValue = Any.Word(_length, _minChar, _maxChar);
-            }
-
-            [Test]
-            public void ThenReturnedCharactersAreWithinBounds()
-            {
-                Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
-            }
-
-            [Test]
-            public void ThenLengthIsCorrect()
-            {
-                Assert.That(_returnedValue.Length, Is.EqualTo(_length));
-            }
+            _returnedValue = Any.Word(_length, _minChar, _maxChar);
         }
 
-        [TestFixture]
-        public class AnyWordTests_GivenCharRangeFixedLengthAndMinValueGreaterThanMaxValue
+        [Test]
+        public void ThenReturnedCharactersAreWithinBounds()
         {
-            private char _minChar;
-            private char _maxChar;
-            private int _length;
-
-            [SetUp]
-            public void WhenAnyWordCalled()
-            {
-                _minChar = 'u';
-                _maxChar = 'b';
-                _length = 5;
-            }
-
-            [Test]
-            public void ThenArgumentOutOfRangeExceptionIsThrown()
-            {
-                try
-                {
-                    Any.Word(_length, _minChar, _maxChar);
-
-                }
-                catch (ArgumentOutOfRangeException argumentOutOfRangeException)
-                {
-                    Assert.Pass();
-                }
-
-                Assert.Fail("Expected exception not thrown");
-            }
+            Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
         }
 
-        public class AnyWordTests_GivenValidCharRangeLengthWithinRange
+        [Test]
+        public void ThenLengthIsCorrect()
         {
-            private char _minChar;
-            private char _maxChar;
-            private int _minLength;
-            private int _maxLength;
-            private string _returnedValue;
+            Assert.That(_returnedValue.Length, Is.EqualTo(_length));
+        }
+    }
 
-            [SetUp]
-            public void WhenAnyWordCalled()
-            {
-                _minChar = 'a';
-                _maxChar = 't';
-                _minLength = 6;
-                _maxLength = 12;
+    [TestFixture]
+    public class AnyWordTests_GivenCharRangeFixedLengthAndMinValueGreaterThanMaxValue
+    {
+        private char _minChar;
+        private char _maxChar;
+        private int _length;
 
-                _returnedValue = Any.Word(_minLength, _maxLength, _minChar, _maxChar);
-            }
-
-            [Test]
-            public void ThenReturnedCharactersAreWithinBounds()
-            {
-                Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
-            }
-
-            [Test]
-            public void ThenReturnedWordLengthIsWithinBounds()
-            {
-                Assert.That(_returnedValue.Length, Is.InRange(_minLength, _maxLength));
-            }
+        [SetUp]
+        public void WhenAnyWordCalled()
+        {
+            _minChar = 'u';
+            _maxChar = 'b';
+            _length = 5;
         }
 
-        public class AnyWordTests_GivenFixedLength
+        [Test]
+        public void ThenArgumentOutOfRangeExceptionIsThrown()
         {
-            private char _minChar;
-            private char _maxChar;
-            private int _length;
-            private string _returnedValue;
-
-            [SetUp]
-            public void WhenAnyWordCalled()
+            try
             {
-                _minChar = 'A';
-                _maxChar = 'z';
-                _length = 12;
+                Any.Word(_length, _minChar, _maxChar);
 
-                _returnedValue = Any.Word(_length);
+            }
+            catch (ArgumentOutOfRangeException argumentOutOfRangeException)
+            {
+                Assert.Pass();
             }
 
-            [Test]
-            public void ThenReturnedCharactersAreWithinBounds()
-            {
-                Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
-            }
+            Assert.Fail("Expected exception not thrown");
+        }
+    }
 
-            [Test]
-            public void ThenLengthIsCorrect()
-            {
-                Assert.That(_returnedValue.Length, Is.EqualTo(_length));
-            }
+    public class AnyWordTests_GivenValidCharRangeLengthWithinRange
+    {
+        private char _minChar;
+        private char _maxChar;
+        private int _minLength;
+        private int _maxLength;
+        private string _returnedValue;
+
+        [SetUp]
+        public void WhenAnyWordCalled()
+        {
+            _minChar = 'a';
+            _maxChar = 't';
+            _minLength = 6;
+            _maxLength = 12;
+
+            _returnedValue = Any.Word(_minLength, _maxLength, _minChar, _maxChar);
         }
 
-        public class AnyWordTests_GivenLengthRange
+        [Test]
+        public void ThenReturnedCharactersAreWithinBounds()
         {
-            private char _minChar;
-            private char _maxChar;
-            private int _minLength;
-            private int _maxLength;
-            private string _returnedValue;
+            Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
+        }
 
-            [SetUp]
-            public void WhenAnyWordCalled()
-            {
-                _minChar = 'A';
-                _maxChar = 'z';
-                _minLength = 6;
-                _maxLength = 12;
+        [Test]
+        public void ThenReturnedWordLengthIsWithinBounds()
+        {
+            Assert.That(_returnedValue.Length, Is.InRange(_minLength, _maxLength));
+        }
+    }
 
-                _returnedValue = Any.Word(_minLength, _maxLength);
-            }
+    public class AnyWordTests_GivenFixedLength
+    {
+        private char _minChar;
+        private char _maxChar;
+        private int _length;
+        private string _returnedValue;
 
-            [Test]
-            public void ThenReturnedCharactersAreWithinBounds()
-            {
-                Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
-            }
+        [SetUp]
+        public void WhenAnyWordCalled()
+        {
+            _minChar = 'A';
+            _maxChar = 'z';
+            _length = 12;
 
-            [Test]
-            public void ThenReturnedWordLengthIsWithinBounds()
-            {
-                Assert.That(_returnedValue.Length, Is.InRange(_minLength, _maxLength));
-            }
+            _returnedValue = Any.Word(_length);
+        }
+
+        [Test]
+        public void ThenReturnedCharactersAreWithinBounds()
+        {
+            Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
+        }
+
+        [Test]
+        public void ThenLengthIsCorrect()
+        {
+            Assert.That(_returnedValue.Length, Is.EqualTo(_length));
+        }
+    }
+
+    public class AnyWordTests_GivenLengthRange
+    {
+        private char _minChar;
+        private char _maxChar;
+        private int _minLength;
+        private int _maxLength;
+        private string _returnedValue;
+
+        [SetUp]
+        public void WhenAnyWordCalled()
+        {
+            _minChar = 'A';
+            _maxChar = 'z';
+            _minLength = 6;
+            _maxLength = 12;
+
+            _returnedValue = Any.Word(_minLength, _maxLength);
+        }
+
+        [Test]
+        public void ThenReturnedCharactersAreWithinBounds()
+        {
+            Assert.That(_returnedValue.ToCharArray().All(c => c >= _minChar && c <= _maxChar), Is.True);
+        }
+
+        [Test]
+        public void ThenReturnedWordLengthIsWithinBounds()
+        {
+            Assert.That(_returnedValue.Length, Is.InRange(_minLength, _maxLength));
         }
     }
 }
