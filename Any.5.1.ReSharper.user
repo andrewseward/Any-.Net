@@ -8,13 +8,47 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="164" fromTop="9" />
-      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="697" fromTop="29" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyIntegerTests.cs" caret="994" fromTop="42" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyCharacterTests.cs" caret="62" fromTop="4" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyDecimalTests.cs" caret="1549" fromTop="29" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyWordTests.cs" caret="4279" fromTop="29" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:OfTests.cs" caret="573" fromTop="24" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:DomainExtensionTests.cs" caret="368" fromTop="16" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2687" fromTop="35" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:EmailAddressTests.cs" caret="287" fromTop="11" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4332" fromTop="54" />
     </RecentFiles>
     <RecentEdits>
-      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="120" fromTop="7" />
-      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="479" fromTop="21" />
-      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="676" fromTop="27" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="26" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="680" fromTop="24" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="111" fromTop="5" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="1243" fromTop="42" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="1781" fromTop="38" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="482" fromTop="18" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="1051" fromTop="37" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2320" fromTop="42" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="1897" fromTop="27" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="1367" fromTop="8" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="818" fromTop="28" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2497" fromTop="22" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="22" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2738" fromTop="35" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2923" fromTop="41" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="44" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="35" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="42" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="42" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="26" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="2658" fromTop="30" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="12" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="19" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:UrlTests.cs" caret="3126" fromTop="53" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:EmailAddressTests.cs" caret="168" fromTop="7" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:EmailAddressTests.cs" caret="450" fromTop="17" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4337" fromTop="34" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:EmailAddressTests.cs" caret="287" fromTop="11" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="35" fromTop="2" />
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="4332" fromTop="54" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -29,23 +63,107 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="using" priority="0" />
+      <Item value="using" priority="2" />
       <Item value="NUnit.Framework" priority="0" />
       <Item value="TestFixture" priority="0" />
-      <Item value="SetUp" priority="0" />
-      <Item value="public" priority="1" />
-      <Item value="void" priority="1" />
-      <Item value="int" priority="3" />
-      <Item value="Any" priority="0" />
+      <Item value="SetUp" priority="1" />
+      <Item value="public" priority="13" />
+      <Item value="void" priority="6" />
+      <Item value="int" priority="9" />
+      <Item value="Any" priority="3" />
       <Item value="_minInt" priority="1" />
       <Item value="_maxInt" priority="1" />
-      <Item value="Is`0" priority="0" />
+      <Item value="Is`0" priority="4" />
+      <Item value="return" priority="13" />
+      <Item value="Math`0" priority="0" />
+      <Item value="Random`0" priority="1" />
+      <Item value="random" priority="1" />
+      <Item value="new" priority="5" />
+      <Item value="Random" priority="0" />
+      <Item value="minInt" priority="0" />
+      <Item value="maxInt" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="ArgumentOutOfRangeException`0" priority="0" />
+      <Item value="argumentOutOfRangeException" priority="0" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="class" priority="6" />
+      <Item value="Integer`0" priority="4" />
+      <Item value="minValue" priority="2" />
+      <Item value="maxValue" priority="0" />
+      <Item value="decimal" priority="3" />
+      <Item value="private" priority="4" />
+      <Item value="_decimalPlaces" priority="2" />
+      <Item value="decimalPlaces" priority="0" />
+      <Item value="multiplier" priority="1" />
+      <Item value="result" priority="0" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="char" priority="0" />
+      <Item value="System" priority="1" />
+      <Item value="Linq" priority="1" />
+      <Item value="Any`1" priority="0" />
+      <Item value="c" priority="1" />
+      <Item value="All`1" priority="0" />
+      <Item value="StringBuilder`0" priority="1" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="length" priority="2" />
+      <Item value="for" priority="1" />
+      <Item value="i" priority="1" />
+      <Item value="word" priority="1" />
+      <Item value="Character`0" priority="1" />
+      <Item value="minCharacter" priority="0" />
+      <Item value="maxCharacter" priority="0" />
+      <Item value="_maxLength" priority="2" />
+      <Item value="_minLength" priority="1" />
+      <Item value="_returnedValue" priority="4" />
+      <Item value="Word`0" priority="4" />
+      <Item value="minLength" priority="1" />
+      <Item value="maxLength" priority="1" />
+      <Item value="minChar" priority="0" />
+      <Item value="maxChar" priority="0" />
+      <Item value="_length" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="DefaultMinCharacter" priority="0" />
+      <Item value="DefaultMaxCharacter" priority="0" />
+      <Item value="string" priority="5" />
+      <Item value="_words" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="words" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="Of`0" priority="1" />
+      <Item value="DomainExtensions" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="url" priority="11" />
+      <Item value="DomainExtension`0" priority="1" />
+      <Item value="UrlHostnameWithNoSubdomain`0" priority="0" />
+      <Item value="UrlPart`0" priority="0" />
+      <Item value="UrlHostname`0" priority="0" />
+      <Item value="RelativeUrl`0" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="0" />
+      <Item value="emailAddress" priority="3" />
+      <Item value="Net" priority="0" />
+      <Item value="Any`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="That`0" priority="0" />
+      <Item value="That`0" priority="2" />
+      <Item value="Pass`0" priority="0" />
+      <Item value="Fail`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
-      <Item value="InRange`0" priority="0" />
+      <Item value="InRange`0" priority="1" />
+      <Item value="True" priority="1" />
+      <Item value="EqualTo`0" priority="0" />
+      <Item value="StringMatching`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToCharArray`0" priority="0" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="11" />
+      <Item value="ToString`0" priority="5" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

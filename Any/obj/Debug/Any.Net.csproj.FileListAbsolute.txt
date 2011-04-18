@@ -1,0 +1,5 @@
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any\bin\Debug\Any.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any\bin\Debug\Any.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any\obj\Debug\Any.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any\obj\Debug\Any.pdb
