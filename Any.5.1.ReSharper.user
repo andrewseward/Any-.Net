@@ -1,0 +1,51 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="164" fromTop="9" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="697" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="42444F2D-205B-4BB1-A5F7-3A1E082EBDED/f:Any.cs" caret="120" fromTop="7" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="479" fromTop="21" />
+      <File id="EF9C0A5B-B9C0-4D50-A472-268AEBFA7DD6/f:AnyTests.cs" caret="676" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="NUnit.Framework" priority="0" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="SetUp" priority="0" />
+      <Item value="public" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="int" priority="3" />
+      <Item value="Any" priority="0" />
+      <Item value="_minInt" priority="1" />
+      <Item value="_maxInt" priority="1" />
+      <Item value="Is`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="InRange`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
