@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace Any.Test
+namespace AnyData.Test
 {
     [TestFixture]
     public class AnyDecimalTests_GivenValidParameters

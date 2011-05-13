@@ -1,0 +1,9 @@
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\AnyData.Test.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\AnyData.Test.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\AnyData.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\nunit.framework.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\AnyData.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\bin\Debug\nunit.framework.xml
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\obj\Debug\AnyData.Test.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Test\obj\Debug\AnyData.Test.pdb

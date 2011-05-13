@@ -1,0 +1,10 @@
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Net\bin\Debug\AnyData.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Net\bin\Debug\AnyData.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Net\obj\Debug\AnyData.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\Any.Net\obj\Debug\AnyData.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\AnyData\bin\Debug\AnyData.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\AnyData\bin\Debug\AnyData.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\AnyData\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\AnyData\obj\Debug\AnyData.dll
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\Any\AnyData\obj\Debug\AnyData.pdb

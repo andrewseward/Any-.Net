@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
-namespace Any.Test
+
+namespace AnyData.Test
 {
     [TestFixture]
     public class EmailAddressTests_GivenNoParameters

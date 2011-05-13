@@ -1,7 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
 using System.Linq;
-namespace Any.Test
+
+namespace AnyData.Test
 {
 
     public class AnyWordTests_GivenValidCharRangeFixedLength

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Any.Test
+namespace AnyData.Test
 {
     [TestFixture]
     public class UrlHostnameWithNoSubdomainTests_GivenNoParameters
